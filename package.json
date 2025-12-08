@@ -1,7 +1,7 @@
 {
   "name": "rest-boilerplate",
   "version": "1.0.0",
-  "description": "",
+  "description": "A lightweight TypeScript Node.js REST API boilerplate with Express, MongoDB, and JWT authentication for simple CRUD projects",
   "main": "index.js",
   "scripts": {
     "build": "tsc",
@@ -10,8 +10,18 @@
     "prod": "npm run build && npm run start",
     "clean": "rm -rf node_modules coverage dist .nyc_output"
   },
-  "keywords": [],
-  "author": "",
+  "keywords": [
+    "typescript",
+    "nodejs",
+    "rest-api",
+    "boilerplate",
+    "express",
+    "mongodb",
+    "jwt",
+    "crud",
+    "starter"
+  ],
+  "author": "theQuarky",
   "license": "ISC",
   "dependencies": {
     "@types/dotenv": "^8.2.0",
