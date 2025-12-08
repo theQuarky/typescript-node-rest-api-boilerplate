@@ -174,7 +174,7 @@ export default post;
 
 **2. Create controller** (`src/controller/postController.ts`):
 ```typescript
-import * as express from 'express';
+import express from 'express';
 
 export const getAllPosts = (req: express.Request, res: express.Response) => {
   // Your logic here
